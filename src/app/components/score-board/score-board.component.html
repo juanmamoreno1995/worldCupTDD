@@ -1,0 +1,20 @@
+<h2>{{ title }}</h2>
+<ul class="list-group">
+  <li
+    class="list-group-item list-group-item-secondary"
+    *ngFor="let game of games"
+  >
+    <div>
+      <h3>{{ game.home }} vs {{ game.away }}</h3>
+      <p>Resultado: {{ game.homeScore }} - {{ game.awayScore }}</p>
+      <div class="btn-group btn-group-lg" role="group" *ngIf="option === 1">
+        <button class="btn btn-danger" (click)="finishGame(game)">
+          Finalizar Partido
+        </button>
+        <button class="btn btn-primary" (click)="updateScore(game)">
+          Actualizar Resultado
+        </button>
+      </div>
+    </div>
+  </li>
+</ul>

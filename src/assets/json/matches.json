@@ -1,0 +1,37 @@
+[
+  {
+    "home": "Mexico",
+    "homeScore": 0,
+    "away": "Canada",
+    "awayScore": 0,
+    "timestamp": 0
+  },
+  {
+    "home": "Spain",
+    "homeScore": 0,
+    "away": "Brazil",
+    "awayScore": 0,
+    "timestamp": 0
+  },
+  {
+    "home": "Germany",
+    "homeScore": 0,
+    "away": "France",
+    "awayScore": 0,
+    "timestamp": 0
+  },
+  {
+    "home": "Uruguay",
+    "homeScore": 0,
+    "away": "Italy",
+    "awayScore": 0,
+    "timestamp": 0
+  },
+  {
+    "home": "Argentina",
+    "homeScore": 0,
+    "away": "Australia",
+    "awayScore": 0,
+    "timestamp": 0
+  }
+]
